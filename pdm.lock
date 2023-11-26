@@ -5,7 +5,7 @@
 groups = ["default", "dev", "format"]
 strategy = ["cross_platform"]
 lock_version = "4.4"
-content_hash = "sha256:b7a824450dd29e0ecbbc372b14bf53928f32e8c5b18f6c56c425aab4bbfa47e6"
+content_hash = "sha256:04ca604496e7d9740a26db017c359c3d3565f63ad7c345065e39d03ad9f8ee4f"
 
 [[package]]
 name = "asgiref"
@@ -367,6 +367,16 @@ summary = "A platform independent file lock."
 files = [
     {file = "filelock-3.13.1-py3-none-any.whl", hash = "sha256:57dbda9b35157b05fb3e58ee91448612eb674172fab98ee235ccb0b5bee19a1c"},
     {file = "filelock-3.13.1.tar.gz", hash = "sha256:521f5f56c50f8426f5e03ad3b281b490a87ef15bc6c526f168290f0c7148d44e"},
+]
+
+[[package]]
+name = "graphviz"
+version = "0.20.1"
+requires_python = ">=3.7"
+summary = "Simple Python interface for Graphviz"
+files = [
+    {file = "graphviz-0.20.1-py3-none-any.whl", hash = "sha256:587c58a223b51611c0cf461132da386edd896a029524ca61a1462b880bf97977"},
+    {file = "graphviz-0.20.1.zip", hash = "sha256:8c58f14adaa3b947daf26c19bc1e98c4e0702cdc31cf99153e6f06904d492bf8"},
 ]
 
 [[package]]
