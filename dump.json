@@ -1,0 +1,2233 @@
+DEVELOPMENT 192.168.1.109 http://192.168.1.109:19003/media/
+[
+{
+  "model": "auth.group",
+  "fields": {
+    "name": "Administradores",
+    "permissions": [
+      [
+        "add_categoria",
+        "ligiaroupas",
+        "categoria"
+      ],
+      [
+        "change_categoria",
+        "ligiaroupas",
+        "categoria"
+      ],
+      [
+        "delete_categoria",
+        "ligiaroupas",
+        "categoria"
+      ],
+      [
+        "view_categoria",
+        "ligiaroupas",
+        "categoria"
+      ],
+      [
+        "add_compra",
+        "ligiaroupas",
+        "compra"
+      ],
+      [
+        "change_compra",
+        "ligiaroupas",
+        "compra"
+      ],
+      [
+        "delete_compra",
+        "ligiaroupas",
+        "compra"
+      ],
+      [
+        "view_compra",
+        "ligiaroupas",
+        "compra"
+      ],
+      [
+        "add_cor",
+        "ligiaroupas",
+        "cor"
+      ],
+      [
+        "change_cor",
+        "ligiaroupas",
+        "cor"
+      ],
+      [
+        "delete_cor",
+        "ligiaroupas",
+        "cor"
+      ],
+      [
+        "view_cor",
+        "ligiaroupas",
+        "cor"
+      ],
+      [
+        "add_itenscompra",
+        "ligiaroupas",
+        "itenscompra"
+      ],
+      [
+        "change_itenscompra",
+        "ligiaroupas",
+        "itenscompra"
+      ],
+      [
+        "delete_itenscompra",
+        "ligiaroupas",
+        "itenscompra"
+      ],
+      [
+        "view_itenscompra",
+        "ligiaroupas",
+        "itenscompra"
+      ],
+      [
+        "add_marca",
+        "ligiaroupas",
+        "marca"
+      ],
+      [
+        "change_marca",
+        "ligiaroupas",
+        "marca"
+      ],
+      [
+        "delete_marca",
+        "ligiaroupas",
+        "marca"
+      ],
+      [
+        "view_marca",
+        "ligiaroupas",
+        "marca"
+      ],
+      [
+        "add_produto",
+        "ligiaroupas",
+        "produto"
+      ],
+      [
+        "change_produto",
+        "ligiaroupas",
+        "produto"
+      ],
+      [
+        "delete_produto",
+        "ligiaroupas",
+        "produto"
+      ],
+      [
+        "view_produto",
+        "ligiaroupas",
+        "produto"
+      ],
+      [
+        "add_tamanho",
+        "ligiaroupas",
+        "tamanho"
+      ],
+      [
+        "change_tamanho",
+        "ligiaroupas",
+        "tamanho"
+      ],
+      [
+        "delete_tamanho",
+        "ligiaroupas",
+        "tamanho"
+      ],
+      [
+        "view_tamanho",
+        "ligiaroupas",
+        "tamanho"
+      ]
+    ]
+  }
+},
+{
+  "model": "auth.group",
+  "fields": {
+    "name": "Clientes",
+    "permissions": [
+      [
+        "view_categoria",
+        "ligiaroupas",
+        "categoria"
+      ],
+      [
+        "add_compra",
+        "ligiaroupas",
+        "compra"
+      ],
+      [
+        "change_compra",
+        "ligiaroupas",
+        "compra"
+      ],
+      [
+        "delete_compra",
+        "ligiaroupas",
+        "compra"
+      ],
+      [
+        "view_compra",
+        "ligiaroupas",
+        "compra"
+      ],
+      [
+        "view_cor",
+        "ligiaroupas",
+        "cor"
+      ],
+      [
+        "add_itenscompra",
+        "ligiaroupas",
+        "itenscompra"
+      ],
+      [
+        "change_itenscompra",
+        "ligiaroupas",
+        "itenscompra"
+      ],
+      [
+        "delete_itenscompra",
+        "ligiaroupas",
+        "itenscompra"
+      ],
+      [
+        "view_itenscompra",
+        "ligiaroupas",
+        "itenscompra"
+      ],
+      [
+        "view_marca",
+        "ligiaroupas",
+        "marca"
+      ],
+      [
+        "view_produto",
+        "ligiaroupas",
+        "produto"
+      ],
+      [
+        "view_tamanho",
+        "ligiaroupas",
+        "tamanho"
+      ]
+    ]
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "3b73k3n86qoxu26u1xiu1xrl6awacz7l",
+  "fields": {
+    "session_data": ".eJxVjM0OwiAQhN-FsyH8yLp49N5nIEtZpGogKe3J-O6GpAe9Teb7Zt4i0L6VsHdew5LEVWhx-u0izU-uA6QH1XuTc6vbukQ5FHnQLqeW-HU73L-DQr2MNWWPBjwZlVCjipGdQ5-99UYbVkwabSagkc-AzMCQvHUaLhYJxecL3kQ3iw:1qlY4b:xmQkrRVeddxHXix1Lccc1gQtNX1HPDxMyPlXvVeNQHE",
+    "expire_date": "2023-10-11T17:11:41.959Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "at7j6r3szu3wm47mz4pjxgimek1rev7f",
+  "fields": {
+    "session_data": ".eJxVjMsOwiAUBf-FtSGAUIhL935Dc7kPqRpISrtq_Hdt0oVuz8ycTY2wLmVcO8_jROqirDr9bhnwyXUH9IB6bxpbXeYp613RB-361ohf18P9OyjQy7cWkugCxwEx2OzCOYOAc8mm4CEZAm9FIg7emOTBCkp2zIFcRDMQR_X-APd1OIY:1qxPzC:eQ0A-uvUEvkQBYu2gEMLkqbZwIRDa4dVwvoy1Y1R42Q",
+    "expire_date": "2023-11-13T10:59:10.293Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "pgyrx56hviuzf9ollnzyrb2wi8el9kk9",
+  "fields": {
+    "session_data": ".eJxVjMsOwiAUBf-FtSGAUIhL935Dc7kPqRpISrtq_Hdt0oVuz8ycTY2wLmVcO8_jROqirDr9bhnwyXUH9IB6bxpbXeYp613RB-361ohf18P9OyjQy7cWkugCxwEx2OzCOYOAc8mm4CEZAm9FIg7emOTBCkp2zIFcRDMQR_X-APd1OIY:1qxX3I:S_tIpIGY9XEL_IjK1Bi2mxhLdOD4FbpYgaHQI63me8I",
+    "expire_date": "2023-11-13T18:31:52.610Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "t2vrsikb4uqytx0djmyu4lui949hpjvm",
+  "fields": {
+    "session_data": ".eJxVjMsOwiAUBf-FtSGAUIhL935Dc7kPqRpISrtq_Hdt0oVuz8ycTY2wLmVcO8_jROqirDr9bhnwyXUH9IB6bxpbXeYp613RB-361ohf18P9OyjQy7cWkugCxwEx2OzCOYOAc8mm4CEZAm9FIg7emOTBCkp2zIFcRDMQR_X-APd1OIY:1quy3q:r3VtHMIK10V-2fSWYnQ8hcnCJ--lTBk_2jeGaLF1yGs",
+    "expire_date": "2023-11-06T16:45:50.668Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "uuv71sulfk97eer0lkacl3ibu9t50p4h",
+  "fields": {
+    "session_data": ".eJxVjM0OwiAQhN-FsyH8yLp49N5nIEtZpGogKe3J-O6GpAe9Teb7Zt4i0L6VsHdew5LEVWhx-u0izU-uA6QH1XuTc6vbukQ5FHnQLqeW-HU73L-DQr2MNWWPBjwZlVCjipGdQ5-99UYbVkwabSagkc-AzMCQvHUaLhYJxecL3kQ3iw:1qmBOR:EIfXELY9vWnxoq9pd1KlrXoacnD6vfDbLK9Qx-S-gFA",
+    "expire_date": "2023-10-13T11:10:47.028Z"
+  }
+},
+{
+  "model": "uploader.image",
+  "pk": 1,
+  "fields": {
+    "attachment_key": "467f0b80-4003-4911-ae7a-fd55d2ad52e5",
+    "public_id": "af7c6d40-e1f7-495e-9603-f594614802d5",
+    "file": "images/af7c6d40-e1f7-495e-9603-f594614802d5.png",
+    "description": "Calças",
+    "uploaded_on": "2023-09-27T17:58:28.198Z"
+  }
+},
+{
+  "model": "uploader.image",
+  "pk": 2,
+  "fields": {
+    "attachment_key": "397440f0-c2a7-41c0-8822-79bb7963ce0b",
+    "public_id": "4c268cc5-6c68-4379-a7d3-63b6d396fe4c",
+    "file": "images/4c268cc5-6c68-4379-a7d3-63b6d396fe4c.jpg",
+    "description": "Casacos",
+    "uploaded_on": "2023-09-27T17:58:51.241Z"
+  }
+},
+{
+  "model": "uploader.image",
+  "pk": 3,
+  "fields": {
+    "attachment_key": "c7e0c4cc-6e4a-41d5-a6ff-b38f65ac844e",
+    "public_id": "662bf1f0-b4dc-4132-8faa-d8759d28a9fd",
+    "file": "images/662bf1f0-b4dc-4132-8faa-d8759d28a9fd.png",
+    "description": "Relógios",
+    "uploaded_on": "2023-09-27T17:59:01.722Z"
+  }
+},
+{
+  "model": "uploader.image",
+  "pk": 4,
+  "fields": {
+    "attachment_key": "9d6b639e-1a49-4274-b0fe-7ea2e88f295d",
+    "public_id": "a8c06bc3-6993-4811-8318-6b533b71c9f4",
+    "file": "images/a8c06bc3-6993-4811-8318-6b533b71c9f4.png",
+    "description": "Tênis",
+    "uploaded_on": "2023-09-27T17:59:10.449Z"
+  }
+},
+{
+  "model": "uploader.image",
+  "pk": 5,
+  "fields": {
+    "attachment_key": "6253c876-f481-4955-84f8-abf9db1cf1e6",
+    "public_id": "17fbab43-d8a6-4b64-8e4f-fbb69d3d7262",
+    "file": "images/17fbab43-d8a6-4b64-8e4f-fbb69d3d7262.png",
+    "description": "Polo",
+    "uploaded_on": "2023-09-27T18:01:15.227Z"
+  }
+},
+{
+  "model": "uploader.image",
+  "pk": 6,
+  "fields": {
+    "attachment_key": "4dafc3ff-96bb-49f8-98a6-3863fcb0f2ea",
+    "public_id": "1445dd5a-6412-4552-8ff0-789ed535e608",
+    "file": "images/1445dd5a-6412-4552-8ff0-789ed535e608.png",
+    "description": "Adidas",
+    "uploaded_on": "2023-09-27T18:01:31.488Z"
+  }
+},
+{
+  "model": "uploader.image",
+  "pk": 7,
+  "fields": {
+    "attachment_key": "a1ebaad4-5b15-42eb-82cd-ee75473ff09a",
+    "public_id": "4dc896db-f8d1-457e-92be-6f6d7c1cc8c9",
+    "file": "images/4dc896db-f8d1-457e-92be-6f6d7c1cc8c9.jpg",
+    "description": "Nike",
+    "uploaded_on": "2023-09-27T18:01:48.908Z"
+  }
+},
+{
+  "model": "uploader.image",
+  "pk": 8,
+  "fields": {
+    "attachment_key": "214c7c29-eecc-4820-bf98-8c745830481f",
+    "public_id": "2bb107a3-f9c0-4c7c-a2bb-271a5435fb84",
+    "file": "images/2bb107a3-f9c0-4c7c-a2bb-271a5435fb84.png",
+    "description": "Vans",
+    "uploaded_on": "2023-09-27T18:02:02.695Z"
+  }
+},
+{
+  "model": "uploader.image",
+  "pk": 9,
+  "fields": {
+    "attachment_key": "6c1e5bab-87d2-421a-998d-57274e20ade3",
+    "public_id": "0bc1826c-7e2e-406e-a588-5eab8633b71e",
+    "file": "images/0bc1826c-7e2e-406e-a588-5eab8633b71e",
+    "description": "Camisa Básica Polo Preta",
+    "uploaded_on": "2023-09-27T18:03:25.799Z"
+  }
+},
+{
+  "model": "uploader.image",
+  "pk": 10,
+  "fields": {
+    "attachment_key": "af521fc2-cebf-4306-a24d-55c4e4d5c621",
+    "public_id": "bb526c47-7400-450b-a7c7-ed2443ce21a5",
+    "file": "images/bb526c47-7400-450b-a7c7-ed2443ce21a5",
+    "description": "Calça Básica Adidas Cinza",
+    "uploaded_on": "2023-09-27T18:06:09.351Z"
+  }
+},
+{
+  "model": "uploader.image",
+  "pk": 11,
+  "fields": {
+    "attachment_key": "26ae2415-78d7-4a62-a0fd-6c07c64b4514",
+    "public_id": "99b8854c-7039-465d-8e08-57b329100e35",
+    "file": "images/99b8854c-7039-465d-8e08-57b329100e35.jpg",
+    "description": "Tênis Vans old skool",
+    "uploaded_on": "2023-09-27T18:07:26.296Z"
+  }
+},
+{
+  "model": "uploader.image",
+  "pk": 12,
+  "fields": {
+    "attachment_key": "2471d96f-b3b6-447a-8c1c-15068ab940c1",
+    "public_id": "12a08219-7727-471e-b575-3f839f2392aa",
+    "file": "images/12a08219-7727-471e-b575-3f839f2392aa.jpg",
+    "description": "",
+    "uploaded_on": "2023-10-30T10:56:17.215Z"
+  }
+},
+{
+  "model": "uploader.image",
+  "pk": 13,
+  "fields": {
+    "attachment_key": "f508aa05-8726-45b0-b845-751123580127",
+    "public_id": "70b0ae1f-8acc-4a88-8e8d-792236c1799c",
+    "file": "images/70b0ae1f-8acc-4a88-8e8d-792236c1799c.jpg",
+    "description": "",
+    "uploaded_on": "2023-10-30T11:07:58.639Z"
+  }
+},
+{
+  "model": "uploader.image",
+  "pk": 14,
+  "fields": {
+    "attachment_key": "d2e6c579-2f8f-4530-a31e-99ecd2aa17e7",
+    "public_id": "f77bd95b-d595-4c20-a2b7-1133eff814ae",
+    "file": "images/f77bd95b-d595-4c20-a2b7-1133eff814ae.jpg",
+    "description": "",
+    "uploaded_on": "2023-10-30T11:08:22.277Z"
+  }
+},
+{
+  "model": "uploader.image",
+  "pk": 15,
+  "fields": {
+    "attachment_key": "4831955c-9830-47a3-93c5-17eb9efd7e47",
+    "public_id": "806f719d-f2db-4156-8656-d3244d2ef046",
+    "file": "images/806f719d-f2db-4156-8656-d3244d2ef046.jpg",
+    "description": "",
+    "uploaded_on": "2023-10-30T11:09:20.102Z"
+  }
+},
+{
+  "model": "uploader.image",
+  "pk": 16,
+  "fields": {
+    "attachment_key": "ebf676ca-6e25-487e-80e6-4425306c2048",
+    "public_id": "a63d63da-507b-4dd3-9154-948431c8bb93",
+    "file": "images/a63d63da-507b-4dd3-9154-948431c8bb93.jpg",
+    "description": "",
+    "uploaded_on": "2023-10-30T11:12:31.751Z"
+  }
+},
+{
+  "model": "uploader.image",
+  "pk": 17,
+  "fields": {
+    "attachment_key": "54da1d0a-787b-4303-8527-96f2c96af2a3",
+    "public_id": "b8a4c088-5a53-4d32-9597-5599e40ed3b7",
+    "file": "images/b8a4c088-5a53-4d32-9597-5599e40ed3b7.png",
+    "description": "",
+    "uploaded_on": "2023-10-30T17:31:41.568Z"
+  }
+},
+{
+  "model": "uploader.image",
+  "pk": 18,
+  "fields": {
+    "attachment_key": "e5661445-4751-48c0-9fe3-1f198d2d9784",
+    "public_id": "ece9ad75-4507-42a2-84f9-38911a7ae273",
+    "file": "images/ece9ad75-4507-42a2-84f9-38911a7ae273.png",
+    "description": "",
+    "uploaded_on": "2023-10-30T17:36:27.717Z"
+  }
+},
+{
+  "model": "uploader.image",
+  "pk": 19,
+  "fields": {
+    "attachment_key": "aaaec333-f597-4bf1-87d7-e90e328c4826",
+    "public_id": "0642ac87-401c-412f-b3ba-2a7ba34cf0cd",
+    "file": "images/0642ac87-401c-412f-b3ba-2a7ba34cf0cd.png",
+    "description": "",
+    "uploaded_on": "2023-10-30T18:03:11.994Z"
+  }
+},
+{
+  "model": "uploader.image",
+  "pk": 20,
+  "fields": {
+    "attachment_key": "dfbfe6e2-623c-410c-a10e-c04d8af94f6c",
+    "public_id": "ca9f2330-3954-4fda-9922-98c4792c3173",
+    "file": "images/ca9f2330-3954-4fda-9922-98c4792c3173.jpg",
+    "description": "",
+    "uploaded_on": "2023-10-30T18:31:21.659Z"
+  }
+},
+{
+  "model": "uploader.image",
+  "pk": 21,
+  "fields": {
+    "attachment_key": "52451fd5-f3d1-4e15-8936-8b567decc6c8",
+    "public_id": "d373a74e-233e-4d65-83dd-14006a77506b",
+    "file": "images/d373a74e-233e-4d65-83dd-14006a77506b.jpg",
+    "description": "",
+    "uploaded_on": "2023-10-30T18:31:21.877Z"
+  }
+},
+{
+  "model": "uploader.image",
+  "pk": 22,
+  "fields": {
+    "attachment_key": "7a83b5b8-6761-45bb-988e-b02e939f09f9",
+    "public_id": "223a4109-a1cc-4132-8002-07733295ee13",
+    "file": "images/223a4109-a1cc-4132-8002-07733295ee13.png",
+    "description": "",
+    "uploaded_on": "2023-10-30T18:32:43.589Z"
+  }
+},
+{
+  "model": "uploader.image",
+  "pk": 23,
+  "fields": {
+    "attachment_key": "fe00bc53-428b-4d6e-ae6b-51e457f619f4",
+    "public_id": "23adf29b-9e48-429b-a5ff-75e7db459521",
+    "file": "images/23adf29b-9e48-429b-a5ff-75e7db459521.png",
+    "description": "",
+    "uploaded_on": "2023-10-30T18:32:45.988Z"
+  }
+},
+{
+  "model": "uploader.image",
+  "pk": 24,
+  "fields": {
+    "attachment_key": "df078485-9ebe-4ba2-98c4-efedbc079a00",
+    "public_id": "cc3c6b42-36cb-4a98-904d-4f945c51f378",
+    "file": "images/cc3c6b42-36cb-4a98-904d-4f945c51f378.png",
+    "description": "",
+    "uploaded_on": "2023-10-30T18:32:48.331Z"
+  }
+},
+{
+  "model": "uploader.image",
+  "pk": 25,
+  "fields": {
+    "attachment_key": "2cba0c46-0610-4037-a96f-cc451c2b7011",
+    "public_id": "6b4462c5-1a90-4574-81b7-56b0c1df05e4",
+    "file": "images/6b4462c5-1a90-4574-81b7-56b0c1df05e4.png",
+    "description": "",
+    "uploaded_on": "2023-10-30T18:32:49.788Z"
+  }
+},
+{
+  "model": "uploader.image",
+  "pk": 26,
+  "fields": {
+    "attachment_key": "2cdf3c7c-f813-4902-8f13-6e93a97dd275",
+    "public_id": "00d7fed1-5957-4aac-8833-ab8e42bb0208",
+    "file": "images/00d7fed1-5957-4aac-8833-ab8e42bb0208.jpg",
+    "description": "",
+    "uploaded_on": "2023-10-30T18:46:56.493Z"
+  }
+},
+{
+  "model": "uploader.image",
+  "pk": 27,
+  "fields": {
+    "attachment_key": "c32367dd-0e4c-48ec-9bc3-f449a3e4b5b0",
+    "public_id": "dd47513d-7d48-4bd5-83b7-08a000f811a6",
+    "file": "images/dd47513d-7d48-4bd5-83b7-08a000f811a6.jpg",
+    "description": "",
+    "uploaded_on": "2023-10-30T18:58:08.246Z"
+  }
+},
+{
+  "model": "uploader.image",
+  "pk": 28,
+  "fields": {
+    "attachment_key": "09ad9294-32be-4fa5-9665-38a324e6176a",
+    "public_id": "f5c176a5-4b67-4f94-b6c1-5b29acb651a2",
+    "file": "images/f5c176a5-4b67-4f94-b6c1-5b29acb651a2.png",
+    "description": "",
+    "uploaded_on": "2023-10-30T18:58:13.033Z"
+  }
+},
+{
+  "model": "uploader.image",
+  "pk": 29,
+  "fields": {
+    "attachment_key": "0b5073b0-6981-4f90-9a9c-cb790cfe576b",
+    "public_id": "28d09612-66e3-4f1a-97f1-8d18905abf26",
+    "file": "images/28d09612-66e3-4f1a-97f1-8d18905abf26.png",
+    "description": "",
+    "uploaded_on": "2023-10-30T18:58:21.171Z"
+  }
+},
+{
+  "model": "uploader.image",
+  "pk": 30,
+  "fields": {
+    "attachment_key": "6829c6ae-a6c3-4481-99be-4ec57fa9ea15",
+    "public_id": "7d0066d4-b574-4e52-a053-b4638f9f52e1",
+    "file": "images/7d0066d4-b574-4e52-a053-b4638f9f52e1.png",
+    "description": "",
+    "uploaded_on": "2023-10-30T18:58:23.809Z"
+  }
+},
+{
+  "model": "uploader.image",
+  "pk": 31,
+  "fields": {
+    "attachment_key": "01112a6b-3cd4-4e77-8f86-b748eaa10469",
+    "public_id": "10b5a40e-2d67-4b48-b95b-0a92068db40c",
+    "file": "images/10b5a40e-2d67-4b48-b95b-0a92068db40c.png",
+    "description": "",
+    "uploaded_on": "2023-10-30T19:02:33.613Z"
+  }
+},
+{
+  "model": "uploader.image",
+  "pk": 32,
+  "fields": {
+    "attachment_key": "63d22229-6288-442d-8f48-32e6f560d646",
+    "public_id": "100ae6b3-6f8d-450f-a9f2-d51bb314bac3",
+    "file": "images/100ae6b3-6f8d-450f-a9f2-d51bb314bac3.png",
+    "description": "",
+    "uploaded_on": "2023-10-30T19:02:36.052Z"
+  }
+},
+{
+  "model": "uploader.image",
+  "pk": 33,
+  "fields": {
+    "attachment_key": "d9d74de6-755a-460e-9db1-7ef77f76f352",
+    "public_id": "927335ae-10f7-4d01-8e19-10ff6695fca9",
+    "file": "images/927335ae-10f7-4d01-8e19-10ff6695fca9.png",
+    "description": "",
+    "uploaded_on": "2023-10-30T19:02:54.270Z"
+  }
+},
+{
+  "model": "uploader.image",
+  "pk": 34,
+  "fields": {
+    "attachment_key": "a7a2287d-7b23-4664-9192-4334654c9d38",
+    "public_id": "a0789e62-f13a-4aba-84dc-e679f8c11a51",
+    "file": "images/a0789e62-f13a-4aba-84dc-e679f8c11a51.jpg",
+    "description": "",
+    "uploaded_on": "2023-10-30T19:03:10.281Z"
+  }
+},
+{
+  "model": "uploader.image",
+  "pk": 35,
+  "fields": {
+    "attachment_key": "0b22813b-ddb4-4df3-9514-239b0ec20b96",
+    "public_id": "8e74287d-73c1-4e1e-890c-d48f1f9dabe8",
+    "file": "images/8e74287d-73c1-4e1e-890c-d48f1f9dabe8.jpg",
+    "description": "",
+    "uploaded_on": "2023-10-30T19:03:29.450Z"
+  }
+},
+{
+  "model": "uploader.image",
+  "pk": 36,
+  "fields": {
+    "attachment_key": "6925ff95-c6a3-4ddb-b9b0-c7d2867aec74",
+    "public_id": "c2ea10d4-2610-47cd-90b4-2371fb0d4de6",
+    "file": "images/c2ea10d4-2610-47cd-90b4-2371fb0d4de6.jpg",
+    "description": "",
+    "uploaded_on": "2023-10-30T19:03:57.555Z"
+  }
+},
+{
+  "model": "uploader.image",
+  "pk": 37,
+  "fields": {
+    "attachment_key": "c106a14a-1421-4c13-aca5-3509c5554da8",
+    "public_id": "acb3a45c-494d-4a4a-b900-c843b344dabe",
+    "file": "images/acb3a45c-494d-4a4a-b900-c843b344dabe.jpg",
+    "description": "",
+    "uploaded_on": "2023-10-30T19:04:30.817Z"
+  }
+},
+{
+  "model": "uploader.image",
+  "pk": 38,
+  "fields": {
+    "attachment_key": "7f09eed5-7f57-4dda-a2af-b40cab09cde9",
+    "public_id": "4b81fda7-483e-408d-931d-36a6b89d0d2d",
+    "file": "images/4b81fda7-483e-408d-931d-36a6b89d0d2d.jpg",
+    "description": "",
+    "uploaded_on": "2023-10-30T19:19:20.604Z"
+  }
+},
+{
+  "model": "usuario.usuario",
+  "fields": {
+    "last_login": "2023-09-27T17:11:41.955Z",
+    "is_superuser": true,
+    "first_name": "João",
+    "last_name": "Machado",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2023-09-26T18:00:42.888Z",
+    "email": "joao@joao.com.br",
+    "cpf": "10938408976",
+    "telefone": "47997929990",
+    "data_nascimento": "2005-06-14",
+    "foto": null,
+    "password": "pbkdf2_sha256$390000$pQ2WoqMxmWDBpLrHTdiTSe$97zKurx8HKz0z8kM+pXMIQ0cTiPXMyGldfHo00YrKvQ=",
+    "groups": [
+      [
+        "Administradores"
+      ]
+    ],
+    "user_permissions": []
+  }
+},
+{
+  "model": "ligiaroupas.categoria",
+  "pk": 2,
+  "fields": {
+    "descricao": "Calças",
+    "capa_categoria": 1
+  }
+},
+{
+  "model": "ligiaroupas.categoria",
+  "pk": 3,
+  "fields": {
+    "descricao": "Camisetas",
+    "capa_categoria": null
+  }
+},
+{
+  "model": "ligiaroupas.categoria",
+  "pk": 4,
+  "fields": {
+    "descricao": "Casacos",
+    "capa_categoria": 2
+  }
+},
+{
+  "model": "ligiaroupas.categoria",
+  "pk": 5,
+  "fields": {
+    "descricao": "Relógios",
+    "capa_categoria": 3
+  }
+},
+{
+  "model": "ligiaroupas.categoria",
+  "pk": 6,
+  "fields": {
+    "descricao": "Tênis",
+    "capa_categoria": 4
+  }
+},
+{
+  "model": "ligiaroupas.categoria",
+  "pk": 7,
+  "fields": {
+    "descricao": "Camisas",
+    "capa_categoria": null
+  }
+},
+{
+  "model": "ligiaroupas.marca",
+  "pk": 2,
+  "fields": {
+    "nome_marca": "Polo",
+    "logo_marca": 5
+  }
+},
+{
+  "model": "ligiaroupas.marca",
+  "pk": 3,
+  "fields": {
+    "nome_marca": "Adidas",
+    "logo_marca": 6
+  }
+},
+{
+  "model": "ligiaroupas.marca",
+  "pk": 4,
+  "fields": {
+    "nome_marca": "Nike",
+    "logo_marca": 7
+  }
+},
+{
+  "model": "ligiaroupas.marca",
+  "pk": 5,
+  "fields": {
+    "nome_marca": "Vans",
+    "logo_marca": 8
+  }
+},
+{
+  "model": "ligiaroupas.cor",
+  "pk": 2,
+  "fields": {
+    "nome_cor": "Branco"
+  }
+},
+{
+  "model": "ligiaroupas.cor",
+  "pk": 3,
+  "fields": {
+    "nome_cor": "Preto"
+  }
+},
+{
+  "model": "ligiaroupas.cor",
+  "pk": 4,
+  "fields": {
+    "nome_cor": "Cinza"
+  }
+},
+{
+  "model": "ligiaroupas.cor",
+  "pk": 5,
+  "fields": {
+    "nome_cor": "Black/White"
+  }
+},
+{
+  "model": "ligiaroupas.tamanho",
+  "pk": 2,
+  "fields": {
+    "especificacao": "P"
+  }
+},
+{
+  "model": "ligiaroupas.tamanho",
+  "pk": 3,
+  "fields": {
+    "especificacao": "M"
+  }
+},
+{
+  "model": "ligiaroupas.tamanho",
+  "pk": 4,
+  "fields": {
+    "especificacao": "G"
+  }
+},
+{
+  "model": "ligiaroupas.tamanho",
+  "pk": 5,
+  "fields": {
+    "especificacao": "GG"
+  }
+},
+{
+  "model": "ligiaroupas.tamanho",
+  "pk": 6,
+  "fields": {
+    "especificacao": "PP"
+  }
+},
+{
+  "model": "ligiaroupas.tamanho",
+  "pk": 7,
+  "fields": {
+    "especificacao": "42"
+  }
+},
+{
+  "model": "ligiaroupas.tamanho",
+  "pk": 8,
+  "fields": {
+    "especificacao": "44mm"
+  }
+},
+{
+  "model": "ligiaroupas.produto",
+  "pk": 2,
+  "fields": {
+    "nome": "Camisa Básica Polo Preta",
+    "preco": "103.50",
+    "quantidade": 13,
+    "categoria": 7,
+    "marca": 2,
+    "cor": 3,
+    "tamanho": 3,
+    "capa": 9
+  }
+},
+{
+  "model": "ligiaroupas.produto",
+  "pk": 3,
+  "fields": {
+    "nome": "Calça Básica Adidas Cinza",
+    "preco": "69.00",
+    "quantidade": 24,
+    "categoria": 2,
+    "marca": 3,
+    "cor": 4,
+    "tamanho": 2,
+    "capa": 10
+  }
+},
+{
+  "model": "ligiaroupas.produto",
+  "pk": 4,
+  "fields": {
+    "nome": "Tênis Vans OldSkool Black/White",
+    "preco": "430.00",
+    "quantidade": 12,
+    "categoria": 6,
+    "marca": 5,
+    "cor": 5,
+    "tamanho": 7,
+    "capa": 11
+  }
+},
+{
+  "model": "ligiaroupas.produto",
+  "pk": 10,
+  "fields": {
+    "nome": "camisa basica polo preta",
+    "preco": "90.00",
+    "quantidade": 13,
+    "categoria": 3,
+    "marca": 2,
+    "cor": 3,
+    "tamanho": 3,
+    "capa": 33
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 1,
+  "fields": {
+    "action_time": "2023-09-27T17:37:44.662Z",
+    "user": [
+      "joao@joao.com.br"
+    ],
+    "content_type": [
+      "ligiaroupas",
+      "compra"
+    ],
+    "object_id": "1",
+    "object_repr": "ID: 1. Usuario: joao@joao.com.br. Status: 1. Total Pedido: 0.00",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 2,
+  "fields": {
+    "action_time": "2023-09-27T17:39:43.119Z",
+    "user": [
+      "joao@joao.com.br"
+    ],
+    "content_type": [
+      "ligiaroupas",
+      "categoria"
+    ],
+    "object_id": "1",
+    "object_repr": "teste",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 3,
+  "fields": {
+    "action_time": "2023-09-27T17:39:49.255Z",
+    "user": [
+      "joao@joao.com.br"
+    ],
+    "content_type": [
+      "ligiaroupas",
+      "marca"
+    ],
+    "object_id": "1",
+    "object_repr": "teste",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 4,
+  "fields": {
+    "action_time": "2023-09-27T17:39:52.550Z",
+    "user": [
+      "joao@joao.com.br"
+    ],
+    "content_type": [
+      "ligiaroupas",
+      "cor"
+    ],
+    "object_id": "1",
+    "object_repr": "teste",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 5,
+  "fields": {
+    "action_time": "2023-09-27T17:39:56.678Z",
+    "user": [
+      "joao@joao.com.br"
+    ],
+    "content_type": [
+      "ligiaroupas",
+      "tamanho"
+    ],
+    "object_id": "1",
+    "object_repr": "teste",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 6,
+  "fields": {
+    "action_time": "2023-09-27T17:39:58.515Z",
+    "user": [
+      "joao@joao.com.br"
+    ],
+    "content_type": [
+      "ligiaroupas",
+      "produto"
+    ],
+    "object_id": "1",
+    "object_repr": "Nome: teste. Categoria: teste. Marca: teste. Cor: teste. Tamanho: teste. Estoque: (1).",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 7,
+  "fields": {
+    "action_time": "2023-09-27T17:40:09.053Z",
+    "user": [
+      "joao@joao.com.br"
+    ],
+    "content_type": [
+      "ligiaroupas",
+      "compra"
+    ],
+    "object_id": "1",
+    "object_repr": "ID: 1. Usuario: joao@joao.com.br. Status: 1. Total Pedido: 12.00",
+    "action_flag": 2,
+    "change_message": "[{\"added\": {\"name\": \"itens compra\", \"object\": \"ItensCompra object (1)\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 8,
+  "fields": {
+    "action_time": "2023-09-27T17:51:44.275Z",
+    "user": [
+      "joao@joao.com.br"
+    ],
+    "content_type": [
+      "ligiaroupas",
+      "compra"
+    ],
+    "object_id": "1",
+    "object_repr": "ID: 1. Usuario: joao@joao.com.br. Status: 1. Total Pedido: 12.00",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 9,
+  "fields": {
+    "action_time": "2023-09-27T17:53:21.828Z",
+    "user": [
+      "joao@joao.com.br"
+    ],
+    "content_type": [
+      "auth",
+      "group"
+    ],
+    "object_id": "1",
+    "object_repr": "Administradores",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 10,
+  "fields": {
+    "action_time": "2023-09-27T17:53:32.984Z",
+    "user": [
+      "joao@joao.com.br"
+    ],
+    "content_type": [
+      "auth",
+      "group"
+    ],
+    "object_id": "1",
+    "object_repr": "Administradores",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Permissions\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 11,
+  "fields": {
+    "action_time": "2023-09-27T17:53:36.656Z",
+    "user": [
+      "joao@joao.com.br"
+    ],
+    "content_type": [
+      "auth",
+      "group"
+    ],
+    "object_id": "1",
+    "object_repr": "Administradores",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 12,
+  "fields": {
+    "action_time": "2023-09-27T17:54:02.453Z",
+    "user": [
+      "joao@joao.com.br"
+    ],
+    "content_type": [
+      "auth",
+      "group"
+    ],
+    "object_id": "2",
+    "object_repr": "Clientes",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 13,
+  "fields": {
+    "action_time": "2023-09-27T17:54:23.075Z",
+    "user": [
+      "joao@joao.com.br"
+    ],
+    "content_type": [
+      "auth",
+      "group"
+    ],
+    "object_id": "2",
+    "object_repr": "Clientes",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Permissions\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 14,
+  "fields": {
+    "action_time": "2023-09-27T17:54:32.118Z",
+    "user": [
+      "joao@joao.com.br"
+    ],
+    "content_type": [
+      "auth",
+      "group"
+    ],
+    "object_id": "2",
+    "object_repr": "Clientes",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 15,
+  "fields": {
+    "action_time": "2023-09-27T17:55:37.106Z",
+    "user": [
+      "joao@joao.com.br"
+    ],
+    "content_type": [
+      "usuario",
+      "usuario"
+    ],
+    "object_id": "2",
+    "object_repr": "zala4453523@gmail.com",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 16,
+  "fields": {
+    "action_time": "2023-09-27T17:55:45.631Z",
+    "user": [
+      "joao@joao.com.br"
+    ],
+    "content_type": [
+      "usuario",
+      "usuario"
+    ],
+    "object_id": "1",
+    "object_repr": "joao@joao.com.br",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Groups\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 17,
+  "fields": {
+    "action_time": "2023-09-27T17:57:04.113Z",
+    "user": [
+      "joao@joao.com.br"
+    ],
+    "content_type": [
+      "ligiaroupas",
+      "produto"
+    ],
+    "object_id": "1",
+    "object_repr": "Nome: teste. Categoria: teste. Marca: teste. Cor: teste. Tamanho: teste. Estoque: (1).",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 18,
+  "fields": {
+    "action_time": "2023-09-27T17:57:07.863Z",
+    "user": [
+      "joao@joao.com.br"
+    ],
+    "content_type": [
+      "ligiaroupas",
+      "marca"
+    ],
+    "object_id": "1",
+    "object_repr": "teste",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 19,
+  "fields": {
+    "action_time": "2023-09-27T17:57:10.768Z",
+    "user": [
+      "joao@joao.com.br"
+    ],
+    "content_type": [
+      "ligiaroupas",
+      "cor"
+    ],
+    "object_id": "1",
+    "object_repr": "teste",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 20,
+  "fields": {
+    "action_time": "2023-09-27T17:57:14.719Z",
+    "user": [
+      "joao@joao.com.br"
+    ],
+    "content_type": [
+      "ligiaroupas",
+      "categoria"
+    ],
+    "object_id": "1",
+    "object_repr": "teste",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 21,
+  "fields": {
+    "action_time": "2023-09-27T17:57:17.175Z",
+    "user": [
+      "joao@joao.com.br"
+    ],
+    "content_type": [
+      "ligiaroupas",
+      "tamanho"
+    ],
+    "object_id": "1",
+    "object_repr": "teste",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 22,
+  "fields": {
+    "action_time": "2023-09-27T17:57:31.344Z",
+    "user": [
+      "joao@joao.com.br"
+    ],
+    "content_type": [
+      "ligiaroupas",
+      "categoria"
+    ],
+    "object_id": "3",
+    "object_repr": "Camisetas",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 23,
+  "fields": {
+    "action_time": "2023-09-27T17:57:38.712Z",
+    "user": [
+      "joao@joao.com.br"
+    ],
+    "content_type": [
+      "ligiaroupas",
+      "categoria"
+    ],
+    "object_id": "4",
+    "object_repr": "Casacos",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 24,
+  "fields": {
+    "action_time": "2023-09-27T17:57:44.200Z",
+    "user": [
+      "joao@joao.com.br"
+    ],
+    "content_type": [
+      "ligiaroupas",
+      "categoria"
+    ],
+    "object_id": "5",
+    "object_repr": "Relógios",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 25,
+  "fields": {
+    "action_time": "2023-09-27T17:57:50.462Z",
+    "user": [
+      "joao@joao.com.br"
+    ],
+    "content_type": [
+      "ligiaroupas",
+      "categoria"
+    ],
+    "object_id": "6",
+    "object_repr": "Tênis",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 26,
+  "fields": {
+    "action_time": "2023-09-27T17:58:28.199Z",
+    "user": [
+      "joao@joao.com.br"
+    ],
+    "content_type": [
+      "uploader",
+      "image"
+    ],
+    "object_id": "1",
+    "object_repr": "(Calças - 467f0b80-4003-4911-ae7a-fd55d2ad52e5)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 27,
+  "fields": {
+    "action_time": "2023-09-27T17:58:29.464Z",
+    "user": [
+      "joao@joao.com.br"
+    ],
+    "content_type": [
+      "ligiaroupas",
+      "categoria"
+    ],
+    "object_id": "2",
+    "object_repr": "Calças",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Capa categoria\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 28,
+  "fields": {
+    "action_time": "2023-09-27T17:58:42.327Z",
+    "user": [
+      "joao@joao.com.br"
+    ],
+    "content_type": [
+      "ligiaroupas",
+      "categoria"
+    ],
+    "object_id": "3",
+    "object_repr": "Camisetas",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 29,
+  "fields": {
+    "action_time": "2023-09-27T17:58:51.241Z",
+    "user": [
+      "joao@joao.com.br"
+    ],
+    "content_type": [
+      "uploader",
+      "image"
+    ],
+    "object_id": "2",
+    "object_repr": "(Casacos - 397440f0-c2a7-41c0-8822-79bb7963ce0b)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 30,
+  "fields": {
+    "action_time": "2023-09-27T17:58:52.280Z",
+    "user": [
+      "joao@joao.com.br"
+    ],
+    "content_type": [
+      "ligiaroupas",
+      "categoria"
+    ],
+    "object_id": "4",
+    "object_repr": "Casacos",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Capa categoria\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 31,
+  "fields": {
+    "action_time": "2023-09-27T17:59:01.722Z",
+    "user": [
+      "joao@joao.com.br"
+    ],
+    "content_type": [
+      "uploader",
+      "image"
+    ],
+    "object_id": "3",
+    "object_repr": "(Relógios - c7e0c4cc-6e4a-41d5-a6ff-b38f65ac844e)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 32,
+  "fields": {
+    "action_time": "2023-09-27T17:59:02.472Z",
+    "user": [
+      "joao@joao.com.br"
+    ],
+    "content_type": [
+      "ligiaroupas",
+      "categoria"
+    ],
+    "object_id": "5",
+    "object_repr": "Relógios",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Capa categoria\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 33,
+  "fields": {
+    "action_time": "2023-09-27T17:59:10.450Z",
+    "user": [
+      "joao@joao.com.br"
+    ],
+    "content_type": [
+      "uploader",
+      "image"
+    ],
+    "object_id": "4",
+    "object_repr": "(Tênis - 9d6b639e-1a49-4274-b0fe-7ea2e88f295d)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 34,
+  "fields": {
+    "action_time": "2023-09-27T17:59:11.552Z",
+    "user": [
+      "joao@joao.com.br"
+    ],
+    "content_type": [
+      "ligiaroupas",
+      "categoria"
+    ],
+    "object_id": "6",
+    "object_repr": "Tênis",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Capa categoria\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 35,
+  "fields": {
+    "action_time": "2023-09-27T18:00:43.894Z",
+    "user": [
+      "joao@joao.com.br"
+    ],
+    "content_type": [
+      "ligiaroupas",
+      "cor"
+    ],
+    "object_id": "2",
+    "object_repr": "Branco",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 36,
+  "fields": {
+    "action_time": "2023-09-27T18:00:48.253Z",
+    "user": [
+      "joao@joao.com.br"
+    ],
+    "content_type": [
+      "ligiaroupas",
+      "cor"
+    ],
+    "object_id": "3",
+    "object_repr": "Preto",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 37,
+  "fields": {
+    "action_time": "2023-09-27T18:00:52.272Z",
+    "user": [
+      "joao@joao.com.br"
+    ],
+    "content_type": [
+      "ligiaroupas",
+      "cor"
+    ],
+    "object_id": "4",
+    "object_repr": "Cinza",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 38,
+  "fields": {
+    "action_time": "2023-09-27T18:00:58.174Z",
+    "user": [
+      "joao@joao.com.br"
+    ],
+    "content_type": [
+      "ligiaroupas",
+      "cor"
+    ],
+    "object_id": "5",
+    "object_repr": "Black/White",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 39,
+  "fields": {
+    "action_time": "2023-09-27T18:01:15.228Z",
+    "user": [
+      "joao@joao.com.br"
+    ],
+    "content_type": [
+      "uploader",
+      "image"
+    ],
+    "object_id": "5",
+    "object_repr": "(Polo - 6253c876-f481-4955-84f8-abf9db1cf1e6)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 40,
+  "fields": {
+    "action_time": "2023-09-27T18:01:16.447Z",
+    "user": [
+      "joao@joao.com.br"
+    ],
+    "content_type": [
+      "ligiaroupas",
+      "marca"
+    ],
+    "object_id": "2",
+    "object_repr": "Polo",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 41,
+  "fields": {
+    "action_time": "2023-09-27T18:01:31.489Z",
+    "user": [
+      "joao@joao.com.br"
+    ],
+    "content_type": [
+      "uploader",
+      "image"
+    ],
+    "object_id": "6",
+    "object_repr": "(Adidas - 4dafc3ff-96bb-49f8-98a6-3863fcb0f2ea)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 42,
+  "fields": {
+    "action_time": "2023-09-27T18:01:33.886Z",
+    "user": [
+      "joao@joao.com.br"
+    ],
+    "content_type": [
+      "ligiaroupas",
+      "marca"
+    ],
+    "object_id": "3",
+    "object_repr": "Adidas",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 43,
+  "fields": {
+    "action_time": "2023-09-27T18:01:48.908Z",
+    "user": [
+      "joao@joao.com.br"
+    ],
+    "content_type": [
+      "uploader",
+      "image"
+    ],
+    "object_id": "7",
+    "object_repr": "(Nike - a1ebaad4-5b15-42eb-82cd-ee75473ff09a)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 44,
+  "fields": {
+    "action_time": "2023-09-27T18:01:50.591Z",
+    "user": [
+      "joao@joao.com.br"
+    ],
+    "content_type": [
+      "ligiaroupas",
+      "marca"
+    ],
+    "object_id": "4",
+    "object_repr": "Nike",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 45,
+  "fields": {
+    "action_time": "2023-09-27T18:02:02.695Z",
+    "user": [
+      "joao@joao.com.br"
+    ],
+    "content_type": [
+      "uploader",
+      "image"
+    ],
+    "object_id": "8",
+    "object_repr": "(Vans - 214c7c29-eecc-4820-bf98-8c745830481f)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 46,
+  "fields": {
+    "action_time": "2023-09-27T18:02:05.582Z",
+    "user": [
+      "joao@joao.com.br"
+    ],
+    "content_type": [
+      "ligiaroupas",
+      "marca"
+    ],
+    "object_id": "5",
+    "object_repr": "Vans",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 47,
+  "fields": {
+    "action_time": "2023-09-27T18:02:10.222Z",
+    "user": [
+      "joao@joao.com.br"
+    ],
+    "content_type": [
+      "ligiaroupas",
+      "tamanho"
+    ],
+    "object_id": "2",
+    "object_repr": "P",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 48,
+  "fields": {
+    "action_time": "2023-09-27T18:02:12.460Z",
+    "user": [
+      "joao@joao.com.br"
+    ],
+    "content_type": [
+      "ligiaroupas",
+      "tamanho"
+    ],
+    "object_id": "3",
+    "object_repr": "M",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 49,
+  "fields": {
+    "action_time": "2023-09-27T18:02:14.402Z",
+    "user": [
+      "joao@joao.com.br"
+    ],
+    "content_type": [
+      "ligiaroupas",
+      "tamanho"
+    ],
+    "object_id": "4",
+    "object_repr": "G",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 50,
+  "fields": {
+    "action_time": "2023-09-27T18:02:21.077Z",
+    "user": [
+      "joao@joao.com.br"
+    ],
+    "content_type": [
+      "ligiaroupas",
+      "tamanho"
+    ],
+    "object_id": "5",
+    "object_repr": "GG",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 51,
+  "fields": {
+    "action_time": "2023-09-27T18:02:24.628Z",
+    "user": [
+      "joao@joao.com.br"
+    ],
+    "content_type": [
+      "ligiaroupas",
+      "tamanho"
+    ],
+    "object_id": "6",
+    "object_repr": "PP",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 52,
+  "fields": {
+    "action_time": "2023-09-27T18:02:27.461Z",
+    "user": [
+      "joao@joao.com.br"
+    ],
+    "content_type": [
+      "ligiaroupas",
+      "tamanho"
+    ],
+    "object_id": "7",
+    "object_repr": "42",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 53,
+  "fields": {
+    "action_time": "2023-09-27T18:02:30.980Z",
+    "user": [
+      "joao@joao.com.br"
+    ],
+    "content_type": [
+      "ligiaroupas",
+      "tamanho"
+    ],
+    "object_id": "8",
+    "object_repr": "44mm",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 54,
+  "fields": {
+    "action_time": "2023-09-27T18:02:52.821Z",
+    "user": [
+      "joao@joao.com.br"
+    ],
+    "content_type": [
+      "ligiaroupas",
+      "categoria"
+    ],
+    "object_id": "7",
+    "object_repr": "Camisas",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 55,
+  "fields": {
+    "action_time": "2023-09-27T18:03:25.800Z",
+    "user": [
+      "joao@joao.com.br"
+    ],
+    "content_type": [
+      "uploader",
+      "image"
+    ],
+    "object_id": "9",
+    "object_repr": "(Camisa Básica Polo Preta - 6c1e5bab-87d2-421a-998d-57274e20ade3)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 56,
+  "fields": {
+    "action_time": "2023-09-27T18:03:27.050Z",
+    "user": [
+      "joao@joao.com.br"
+    ],
+    "content_type": [
+      "ligiaroupas",
+      "produto"
+    ],
+    "object_id": "2",
+    "object_repr": "Nome: Camisa Básica Polo Preta. Categoria: Camisas. Marca: Polo. Cor: Preto. Tamanho: M. Estoque: (13).",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 57,
+  "fields": {
+    "action_time": "2023-09-27T18:04:06.735Z",
+    "user": [
+      "joao@joao.com.br"
+    ],
+    "content_type": [
+      "uploader",
+      "image"
+    ],
+    "object_id": "9",
+    "object_repr": "(Camisa Básica Polo Preta - 6c1e5bab-87d2-421a-998d-57274e20ade3)",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 58,
+  "fields": {
+    "action_time": "2023-09-27T18:06:09.351Z",
+    "user": [
+      "joao@joao.com.br"
+    ],
+    "content_type": [
+      "uploader",
+      "image"
+    ],
+    "object_id": "10",
+    "object_repr": "(Calça Básica Adidas Cinza - af521fc2-cebf-4306-a24d-55c4e4d5c621)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 59,
+  "fields": {
+    "action_time": "2023-09-27T18:06:20.846Z",
+    "user": [
+      "joao@joao.com.br"
+    ],
+    "content_type": [
+      "uploader",
+      "image"
+    ],
+    "object_id": "10",
+    "object_repr": "(Calça Básica Adidas Cinza - af521fc2-cebf-4306-a24d-55c4e4d5c621)",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 60,
+  "fields": {
+    "action_time": "2023-09-27T18:06:34.809Z",
+    "user": [
+      "joao@joao.com.br"
+    ],
+    "content_type": [
+      "ligiaroupas",
+      "produto"
+    ],
+    "object_id": "3",
+    "object_repr": "Nome: Calça Básica Adidas Cinza. Categoria: Calças. Marca: Adidas. Cor: Cinza. Tamanho: P. Estoque: (24).",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 61,
+  "fields": {
+    "action_time": "2023-09-27T18:07:26.297Z",
+    "user": [
+      "joao@joao.com.br"
+    ],
+    "content_type": [
+      "uploader",
+      "image"
+    ],
+    "object_id": "11",
+    "object_repr": "(Tênis Vans old skool - 26ae2415-78d7-4a62-a0fd-6c07c64b4514)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 62,
+  "fields": {
+    "action_time": "2023-09-27T18:07:27.241Z",
+    "user": [
+      "joao@joao.com.br"
+    ],
+    "content_type": [
+      "ligiaroupas",
+      "produto"
+    ],
+    "object_id": "4",
+    "object_repr": "Nome: Tênis Vans OldSkool Black/White. Categoria: Tênis. Marca: Vans. Cor: Black/White. Tamanho: 42. Estoque: (12).",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 63,
+  "fields": {
+    "action_time": "2023-09-29T11:11:21.321Z",
+    "user": [
+      "joao@joao.com.br"
+    ],
+    "content_type": [
+      "ligiaroupas",
+      "compra"
+    ],
+    "object_id": "2",
+    "object_repr": "ID: 2. Usuario: joao@joao.com.br. Status: 1. Total Pedido: 0.00",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"itens compra\", \"object\": \"ItensCompra object (2)\"}}, {\"added\": {\"name\": \"itens compra\", \"object\": \"ItensCompra object (3)\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 64,
+  "fields": {
+    "action_time": "2023-09-29T11:18:56.163Z",
+    "user": [
+      "joao@joao.com.br"
+    ],
+    "content_type": [
+      "ligiaroupas",
+      "compra"
+    ],
+    "object_id": "2",
+    "object_repr": "ID: 2. Usuario: joao@joao.com.br. Status: 1. Total Pedido: 400.00",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"name\": \"itens compra\", \"object\": \"ItensCompra object (2)\", \"fields\": [\"Preco item\"]}}, {\"changed\": {\"name\": \"itens compra\", \"object\": \"ItensCompra object (3)\", \"fields\": [\"Preco item\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 65,
+  "fields": {
+    "action_time": "2023-09-29T11:19:26.101Z",
+    "user": [
+      "joao@joao.com.br"
+    ],
+    "content_type": [
+      "ligiaroupas",
+      "compra"
+    ],
+    "object_id": "2",
+    "object_repr": "ID: 2. Usuario: joao@joao.com.br. Status: 1. Total Pedido: 0.00",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"name\": \"itens compra\", \"object\": \"ItensCompra object (2)\", \"fields\": [\"Preco item\"]}}, {\"changed\": {\"name\": \"itens compra\", \"object\": \"ItensCompra object (3)\", \"fields\": [\"Preco item\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 66,
+  "fields": {
+    "action_time": "2023-09-29T11:20:37.951Z",
+    "user": [
+      "joao@joao.com.br"
+    ],
+    "content_type": [
+      "ligiaroupas",
+      "compra"
+    ],
+    "object_id": "2",
+    "object_repr": "ID: 2. Usuario: joao@joao.com.br. Status: 1. Total Pedido: 0.00",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 67,
+  "fields": {
+    "action_time": "2023-09-29T11:31:06.677Z",
+    "user": [
+      "joao@joao.com.br"
+    ],
+    "content_type": [
+      "ligiaroupas",
+      "compra"
+    ],
+    "object_id": "2",
+    "object_repr": "ID: 2. Usuario: joao@joao.com.br. Status: 1. Total Pedido: 0.00",
+    "action_flag": 2,
+    "change_message": "[{\"deleted\": {\"name\": \"itens compra\", \"object\": \"ItensCompra object (None)\"}}, {\"deleted\": {\"name\": \"itens compra\", \"object\": \"ItensCompra object (None)\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 68,
+  "fields": {
+    "action_time": "2023-09-29T11:31:14.283Z",
+    "user": [
+      "joao@joao.com.br"
+    ],
+    "content_type": [
+      "ligiaroupas",
+      "compra"
+    ],
+    "object_id": "2",
+    "object_repr": "ID: 2. Usuario: joao@joao.com.br. Status: 1. Total Pedido: 0.00",
+    "action_flag": 2,
+    "change_message": "[{\"added\": {\"name\": \"itens compra\", \"object\": \"ItensCompra object (5)\"}}, {\"added\": {\"name\": \"itens compra\", \"object\": \"ItensCompra object (6)\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 69,
+  "fields": {
+    "action_time": "2023-09-29T11:31:22.425Z",
+    "user": [
+      "joao@joao.com.br"
+    ],
+    "content_type": [
+      "ligiaroupas",
+      "produto"
+    ],
+    "object_id": "3",
+    "object_repr": "Nome: Calça Básica Adidas Cinza. Categoria: Calças. Marca: Adidas. Cor: Cinza. Tamanho: P. Estoque: (24).",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 70,
+  "fields": {
+    "action_time": "2023-09-29T11:44:08.919Z",
+    "user": [
+      "joao@joao.com.br"
+    ],
+    "content_type": [
+      "ligiaroupas",
+      "compra"
+    ],
+    "object_id": "2",
+    "object_repr": "ID: 2. Usuario: joao@joao.com.br. Status: 1. Total Pedido: 0.00",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 71,
+  "fields": {
+    "action_time": "2023-09-29T11:44:22.587Z",
+    "user": [
+      "joao@joao.com.br"
+    ],
+    "content_type": [
+      "ligiaroupas",
+      "compra"
+    ],
+    "object_id": "4",
+    "object_repr": "ID: 4. Usuario: joao@joao.com.br. Status: 1. Total Pedido: 0.00",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"itens compra\", \"object\": \"ItensCompra object (7)\"}}, {\"added\": {\"name\": \"itens compra\", \"object\": \"ItensCompra object (8)\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 72,
+  "fields": {
+    "action_time": "2023-10-30T10:59:18.397Z",
+    "user": [
+      "joao@joao.com.br"
+    ],
+    "content_type": [
+      "ligiaroupas",
+      "compra"
+    ],
+    "object_id": "4",
+    "object_repr": "ID: 4. Usuario: joao@joao.com.br. Status: 1. Total Pedido: 0.00",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 73,
+  "fields": {
+    "action_time": "2023-10-30T10:59:22.916Z",
+    "user": [
+      "joao@joao.com.br"
+    ],
+    "content_type": [
+      "ligiaroupas",
+      "compra"
+    ],
+    "object_id": "3",
+    "object_repr": "ID: 3. Usuario: joao@joao.com.br. Status: 1. Total Pedido: 207.00",
+    "action_flag": 3,
+    "change_message": ""
+  }
+}
+]
