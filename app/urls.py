@@ -21,6 +21,7 @@ from core.views import (
 )
 from uploader.router import router as uploader_router
 from usuario.router import router as usuario_router
+from usuario.views import UsuarioViewSet
 
 router = DefaultRouter()
 
@@ -30,6 +31,7 @@ router.register("produtos", ProdutoViewset, basename="produtos")
 router.register("compras", CompraViewset, basename="compras")
 router.register("marcas", MarcaViewset, basename="marcas")
 router.register("tamanhos", TamanhoViewset, basename="tamanhos")
+router.register("usuarios", UsuarioViewSet, basename="usuarios")
 
 urlpatterns = [
     path("admin/", admin.site.urls),
@@ -46,8 +48,8 @@ urlpatterns = [
         name="redoc",
     ),
     # Simple JWT
-    path("token/", TokenObtainPairView.as_view(), name="token_obtain_pair"),
-    path("token/refresh/", TokenRefreshView.as_view(), name="token_refresh"),
+    path("api/token/", TokenObtainPairView.as_view(), name="token_obtain_pair"),
+    path("api/token/refresh/", TokenRefreshView.as_view(), name="token_refresh"),
     # API
     path("api/", include(router.urls)),
     path("api/", include(usuario_router.urls)),

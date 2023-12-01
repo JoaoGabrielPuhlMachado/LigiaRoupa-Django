@@ -4,25 +4,25 @@
     "${workspaceFolder}/__pypackages__/3.10/lib"
   ],
   "workbench.colorCustomizations": {
-    "activityBar.activeBackground": "#93e6fc",
-    "activityBar.background": "#93e6fc",
+    "activityBar.activeBackground": "#bddeff",
+    "activityBar.background": "#bddeff",
     "activityBar.foreground": "#15202b",
     "activityBar.inactiveForeground": "#15202b99",
-    "activityBarBadge.background": "#fa45d4",
+    "activityBarBadge.background": "#ff409f",
     "activityBarBadge.foreground": "#15202b",
     "commandCenter.border": "#15202b99",
-    "sash.hoverBorder": "#93e6fc",
-    "statusBar.background": "#61dafb",
+    "sash.hoverBorder": "#bddeff",
+    "statusBar.background": "#8ac4ff",
     "statusBar.foreground": "#15202b",
-    "statusBarItem.hoverBackground": "#2fcefa",
-    "statusBarItem.remoteBackground": "#61dafb",
+    "statusBarItem.hoverBackground": "#57aaff",
+    "statusBarItem.remoteBackground": "#8ac4ff",
     "statusBarItem.remoteForeground": "#15202b",
-    "titleBar.activeBackground": "#61dafb",
+    "titleBar.activeBackground": "#8ac4ff",
     "titleBar.activeForeground": "#15202b",
-    "titleBar.inactiveBackground": "#61dafb99",
+    "titleBar.inactiveBackground": "#8ac4ff99",
     "titleBar.inactiveForeground": "#15202b99"
   },
-  "peacock.color": "#61dafb",
+  "peacock.color": "#8AC4FF",
   "[python]": {
     "editor.defaultFormatter": "ms-python.black-formatter"
   }
