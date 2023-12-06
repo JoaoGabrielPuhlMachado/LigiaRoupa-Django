@@ -30,7 +30,7 @@ class CompraViewset(ModelViewSet):
             return Compra.objects.all()
         if usuario.groups.filter(name="Administradores"):
             return Compra.objects.all()
-        if usuario.tipo == Usuario.Tipos.GERENTE:
+        if usuario.tipo_usuario == Usuario.TipoUsuario.GERENTE:
             return Compra.objects.all()
         return Compra.objects.filter(usuario=usuario)
 
