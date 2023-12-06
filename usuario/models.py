@@ -4,6 +4,7 @@ from django.utils.translation import gettext_lazy as _
 
 from .managers import CustomUserManager
 
+from uploader.models import Image
 
 class Usuario(AbstractUser):
     class TipoUsuario(models.IntegerChoices):
@@ -16,6 +17,13 @@ class Usuario(AbstractUser):
     telefone = models.CharField(_("Phone"), max_length=11, blank=True, null=True)
     data_nascimento = models.DateField(_("Birth Date"), auto_now=False, auto_now_add=False, blank=True, null=True)
     tipo_usuario = models.IntegerField(_("User Type"), choices=TipoUsuario.choices, default=TipoUsuario.CLIENTE)
+    foto = models.ForeignKey(
+        Image,
+        on_delete=models.SET_NULL,
+        null=True,
+        blank=True,
+        default=None,
+    )
 
     USERNAME_FIELD = "email"
     REQUIRED_FIELDS = []

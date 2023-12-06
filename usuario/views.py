@@ -14,6 +14,5 @@ class UsuarioViewSet(ModelViewSet):
 
 # views.py
 
-
 class CustomTokenObtainPairView(TokenObtainPairView):
     serializer_class = CustomTokenObtainPairSerializer
