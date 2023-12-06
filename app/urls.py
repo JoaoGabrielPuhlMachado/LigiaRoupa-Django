@@ -21,7 +21,7 @@ from core.views import (
 )
 from uploader.router import router as uploader_router
 from usuario.router import router as usuario_router
-from usuario.views import UsuarioViewSet
+from usuario.views import UsuarioViewSet, CustomTokenObtainPairView
 
 router = DefaultRouter()
 
@@ -50,6 +50,8 @@ urlpatterns = [
     # Simple JWT
     path("api/token/", TokenObtainPairView.as_view(), name="token_obtain_pair"),
     path("api/token/refresh/", TokenRefreshView.as_view(), name="token_refresh"),
+    path('api/token/custom/', CustomTokenObtainPairView.as_view(), name='token_obtain_pair_custom'),
+
     # API
     path("api/", include(router.urls)),
     path("api/", include(usuario_router.urls)),

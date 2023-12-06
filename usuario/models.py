@@ -7,8 +7,8 @@ from .managers import CustomUserManager
 
 class Usuario(AbstractUser):
     class TipoUsuario(models.IntegerChoices):
-        CLIENTE = 1, "Cliente"
-        ADMIN = 2, "Admin"
+        ADMIN = 1, "Admin"
+        CLIENTE = 2, "Cliente"
 
     username = None
     email = models.EmailField(_("e-mail address"), unique=True)

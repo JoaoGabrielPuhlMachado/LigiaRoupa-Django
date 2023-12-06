@@ -34,12 +34,12 @@ class CompraViewset(ModelViewSet):
             return Compra.objects.all()
         return Compra.objects.filter(usuario=usuario)
 
-    # def list(self, request):
-    #     usuario = self.request.user
-    #     if userIsAnonymous(usuario):
-    #         return Response({"message": "Usuário não autenticado"}, status=status.HTTP_403_FORBIDDEN)
-    #     if self.queryset.count() == 0:
-    #         data = '{}'
-    #     else:
-    #         data = self.get_serializer_class()(self.queryset.all).data
-    #     return Response(data, status=status.HTTP_200_OK)
+    def list(self, request):
+        usuario = self.request.user
+        if userIsAnonymous(usuario):
+            return Response({"message": "Usuário não autenticado"}, status=status.HTTP_403_FORBIDDEN)
+        if self.queryset.count() == 0:
+            data = '{}'
+        else:
+            data = self.get_serializer_class()(self.queryset.all).data
+        return Response(data, status=status.HTTP_200_OK)
