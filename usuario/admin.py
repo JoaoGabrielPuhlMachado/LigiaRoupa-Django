@@ -56,6 +56,7 @@ class CustomUserAdmin(UserAdmin):
                     "is_active",
                     "groups",
                     "user_permissions",
+                    "foto",
                 ),
             },
         ),
