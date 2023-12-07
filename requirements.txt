@@ -33,6 +33,7 @@ psycopg2-binary==2.9.9
 pydotplus==2.0.2
 pyjwt==2.8.0
 pyparsing==3.1.1
+pillow==10.1.0
 python-dotenv==1.0.0
 python-magic==0.4.27
 pytz==2023.3.post1
