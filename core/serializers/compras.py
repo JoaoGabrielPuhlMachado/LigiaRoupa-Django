@@ -1,5 +1,5 @@
 from rest_framework import serializers
-from rest_framework.serializers import ModelSerializer, SerializerMethodField
+from rest_framework.serializers import CharField, ModelSerializer, SerializerMethodField
 
 from core.models import Compra, ItensCompra
 
@@ -9,7 +9,7 @@ class ItensCompraSerializer(ModelSerializer):
 
     class Meta:
         model = ItensCompra
-        fields = ("produto", "quantidade", "total")
+        fields = ("produto","preco_item", "quantidade", "total")
         depth = 2
 
     def get_total(self, instance):
@@ -17,9 +17,10 @@ class ItensCompraSerializer(ModelSerializer):
 
 
 class CompraSerializer(ModelSerializer):
-    itens = ItensCompraSerializer(many=True)
     usuario = serializers.HiddenField(default=serializers.CurrentUserDefault())
+    status = CharField(source="get_status_display", read_only=True)
     data = serializers.DateTimeField(read_only=True)
+    itens = ItensCompraSerializer(many=True, read_only=True)
 
     class Meta:
         model = Compra
@@ -48,10 +49,11 @@ class CriarEditarItensCompraSerializer(ModelSerializer):
 
 class CriarEditarCompraSerializer(ModelSerializer):
     itens = CriarEditarItensCompraSerializer(many=True)
-
+    usuario = serializers.HiddenField(default=serializers.CurrentUserDefault())
+    data = serializers.DateTimeField(read_only=True)
     class Meta:
         model = Compra
-        fields = ("usuario", "itens")
+        fields = ("usuario","data", "itens")
 
     def create(self, validated_data):
         itens = validated_data.pop("itens")
@@ -62,16 +64,12 @@ class CriarEditarCompraSerializer(ModelSerializer):
         compra.save()
         return compra
 
-    @property
-    def total(self):
-        return sum(item.preco_item * item.quantidade for item in self.itens.all())
-
     def update(self, instance, validated_data):
         itens = validated_data.pop("itens")
         if itens:
             instance.itens.all().delete()
             for item in itens:
-                item["preco_item"] = item["produto"].preco  # Coloca o preço do livro no item de compra
+                item["preco_item"] = item["produto"].preco
                 ItensCompra.objects.create(compra=instance, **item)
         instance.save()
         return instance
