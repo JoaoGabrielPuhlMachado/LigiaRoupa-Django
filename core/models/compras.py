@@ -32,7 +32,7 @@ class Compra(models.Model):
         return sum(item.preco_item * item.quantidade for item in self.itens.all())
 
     def __str__(self):
-        return f"ID: {self.id}. Usuario: {self.usuario}. Status: {self.status}. Total Pedido: {self.total:.2f}"
+        return f"ID: {self.id}. Usuario: {self.usuario.email}. Status: {self.status}. Total Pedido: {self.total:.2f}"
 
 
 class ItensCompra(models.Model):
