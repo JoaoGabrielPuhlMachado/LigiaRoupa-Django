@@ -8,6 +8,7 @@ from core.models import Compra
 from core.serializers import CompraSerializer, CriarEditarCompraSerializer
 from usuario.models import Usuario
 
+
 def userIsAnonymous(user):
     return str(user) == "AnonymousUser"
 
@@ -39,7 +40,7 @@ class CompraViewset(ModelViewSet):
         if userIsAnonymous(usuario):
             return Response({"message": "Usuário não autenticado"}, status=status.HTTP_403_FORBIDDEN)
         if self.queryset.count() == 0:
-            data = '{}'
+            data = "{}"
         else:
             data = self.get_serializer_class()(self.queryset.all).data
         return Response(data, status=status.HTTP_200_OK)

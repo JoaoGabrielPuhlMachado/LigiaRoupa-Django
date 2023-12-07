@@ -1,6 +1,6 @@
 import os
-from pathlib import Path
 from datetime import timedelta
+from pathlib import Path
 
 from dotenv import load_dotenv
 
@@ -155,7 +155,7 @@ SPECTACULAR_SETTINGS = {
 }
 SIMPLE_JWT = {
     "ACCESS_TOKEN_LIFETIME": timedelta(minutes=180),
-    "REFRESH_TOKEN_LIFETIME":timedelta(days=1),
+    "REFRESH_TOKEN_LIFETIME": timedelta(days=1),
 }
 # App Uploader settings
 # MEDIA_URL = "http://localhost:8000/media/"

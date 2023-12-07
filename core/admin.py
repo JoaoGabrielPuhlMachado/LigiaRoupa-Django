@@ -55,7 +55,6 @@ class ProdutoAdmin(admin.ModelAdmin):
         "categoria",
         "cor",
         "marca",
-        "tamanho",
     )
     search_fields = (
         "nome",
@@ -75,6 +74,5 @@ class ProdutoAdmin(admin.ModelAdmin):
         "categoria",
         "cor",
         "marca",
-        "tamanho",
     )
     list_per_page = 25

@@ -15,7 +15,7 @@ class Compra(models.Model):
         TRANSFERENCIA_BANCARIA = 5, "Transferência Bancária"
         DINHEIRO = 6, "Dinheiro"
         OUTRO = 7, "Outro"
-        
+
     class StatusCompra(models.IntegerChoices):
         CARRINHO = 1, "Carrinho"
         REALIZADO = 2, "Realizado"
@@ -26,7 +26,7 @@ class Compra(models.Model):
     status = models.IntegerField(choices=StatusCompra.choices, default=StatusCompra.CARRINHO)
     data = models.DateTimeField(auto_now_add=True)
     tipo_pagamento = models.IntegerField(choices=TipoPagamento.choices, default=TipoPagamento.CARTAO_CREDITO)
-    
+
     @property
     def total(self):
         return sum(item.preco_item * item.quantidade for item in self.itens.all())

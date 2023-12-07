@@ -21,15 +21,15 @@ from core.views import (
 )
 from uploader.router import router as uploader_router
 from usuario.router import router as usuario_router
-from usuario.views import UsuarioViewSet, CustomTokenObtainPairView
+from usuario.views import CustomTokenObtainPairView, UsuarioViewSet
 
 router = DefaultRouter()
 
 router.register("categorias", CategoriaViewset, basename="categorias")
-router.register("cores", CorViewset, basename="cores")
-router.register("produtos", ProdutoViewset, basename="produtos")
 router.register("compras", CompraViewset, basename="compras")
+router.register("cores", CorViewset, basename="cores")
 router.register("marcas", MarcaViewset, basename="marcas")
+router.register("produtos", ProdutoViewset, basename="produtos")
 router.register("tamanhos", TamanhoViewset, basename="tamanhos")
 router.register("usuarios", UsuarioViewSet, basename="usuarios")
 
@@ -50,8 +50,7 @@ urlpatterns = [
     # Simple JWT
     path("api/token/", TokenObtainPairView.as_view(), name="token_obtain_pair"),
     path("api/token/refresh/", TokenRefreshView.as_view(), name="token_refresh"),
-    path('api/token/custom/', CustomTokenObtainPairView.as_view(), name='token_obtain_pair_custom'),
-
+    path("api/token/custom/", CustomTokenObtainPairView.as_view(), name="token_obtain_pair_custom"),
     # API
     path("api/", include(router.urls)),
     path("api/", include(usuario_router.urls)),

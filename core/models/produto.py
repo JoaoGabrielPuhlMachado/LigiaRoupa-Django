@@ -11,11 +11,11 @@ class Produto(models.Model):
     categoria = models.ForeignKey(Categoria, on_delete=models.PROTECT, related_name="itens")
     marca = models.ForeignKey(Marca, on_delete=models.PROTECT, related_name="itens")
     cor = models.ForeignKey(Cor, on_delete=models.PROTECT, related_name="itens")
-    tamanho = models.ForeignKey(Tamanho, on_delete=models.PROTECT, related_name="itens")
+    tamanho = models.ManyToManyField(Tamanho, related_name="itens")
     capa = models.ForeignKey(Image, related_name="+", on_delete=models.CASCADE, null=True, blank=True, default=None)
 
     def __str__(self):
-        return f"Nome: {self.nome}. Categoria: {self.categoria}. Marca: {self.marca}. Cor: {self.cor}. Tamanho: {self.tamanho}. Estoque: ({self.quantidade})."
+        return f"Nome: {self.nome}. Categoria: {self.categoria}. Marca: {self.marca}. Cor: {self.cor}.  Estoque: ({self.quantidade})."
 
     class Meta:
         verbose_name = "Produto"
