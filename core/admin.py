@@ -55,6 +55,7 @@ class ProdutoAdmin(admin.ModelAdmin):
         "categoria",
         "cor",
         "marca",
+        "tamanho",
     )
     search_fields = (
         "nome",
