@@ -31,6 +31,7 @@ class CustomTokenObtainPairSerializer(TokenObtainPairSerializer):
         # Adicione informações do usuário aqui
         token["email"] = user.email
         token["tipo_usuario"] = user.tipo_usuario
+        token["groups"] = user.groups
         # Inclua outras informações do usuário conforme necessário
 
         return token
